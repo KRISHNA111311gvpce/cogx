@@ -1,3 +1,4 @@
+!!pip install streamlit google-generativeai plotly pandas
 import streamlit as st
 import google.generativeai as genai
 import json
@@ -415,4 +416,5 @@ with col2:
 
 # Footer
 st.markdown("---")
+
 st.markdown("💡 **Tips:** Use the quick action buttons for instant insights, or ask specific questions in the chat for personalized advice!")
